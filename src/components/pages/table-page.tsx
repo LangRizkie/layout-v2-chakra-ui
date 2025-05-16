@@ -65,7 +65,7 @@ import { routes } from '@/utilities/constants'
 import { createQueryParams, getForm, setQueryParams } from '@/utilities/helper'
 import { values } from '@/utilities/validation'
 import modal from '../ui/modal'
-import Pagination, { type PageChangeDetails } from '../ui/pagination'
+import Pagination, { PageChangeDetails } from '../ui/pagination'
 
 type TablePageProps = {
 	navigation: GetNavigationScreenData[]
